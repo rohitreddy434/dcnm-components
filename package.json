@@ -7,11 +7,14 @@
   "author": "Rohit Gottam <rgottam@cisco.com>",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.8.6"
+    "antd": "^3.17.0",
+    "dcnm-component": "git+ssh://git@github.com:rohitreddy434/dcnm-components.git",
+    "react": "^16.8.6",
+    "shared-react-component-example": "git+ssh://git@github.com:powderham/shared-react-component-example.git"
   },
   "scripts": {
     "build": "babel src -d build",
-    "prepare": "npm run build"
+    "prepare": "yarn run build"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

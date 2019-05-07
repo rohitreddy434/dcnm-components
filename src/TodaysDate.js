@@ -1,5 +1,11 @@
 import React from 'react';
+import { Button } from '../../ui/src/components/common/widgets';
 const TodaysDate = () => {
-  <div>{`Todays Date is ${Date()}`}</div>;
+  return (
+    <div>
+      {`Todays Date is ${Date()}`}
+      <Button type='primary'>Update date</Button>
+    </div>
+  );
 };
 export default TodaysDate;
