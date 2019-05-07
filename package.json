@@ -8,9 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "antd": "^3.17.0",
-    "dcnm-component": "git+ssh://git@github.com:rohitreddy434/dcnm-components.git",
-    "react": "^16.8.6",
-    "shared-react-component-example": "git+ssh://git@github.com:powderham/shared-react-component-example.git"
+    "react": "^16.8.6"
   },
   "scripts": {
     "build": "babel src -d build",
