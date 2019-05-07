@@ -1,0 +1,22 @@
+{
+  "name": "dcnm-components",
+  "version": "0.1.0",
+  "description": "DCNM common components",
+  "main": "build/index.js",
+  "repository": "https://github.com/powderham/shared-react-component-example.git",
+  "author": "Rohit Gottam <rgottam@cisco.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
