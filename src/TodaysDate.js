@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../../ui/src/components/common/widgets';
+import { Button } from 'antd';
 const TodaysDate = () => {
   return (
     <div>
